@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/ubuntu/myangular-app/
+cd /home/ubuntu/angular-app/
 npm install -g @angular/cli
 sudo npm install 
 sudo npm install -g pm2
