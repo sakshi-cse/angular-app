@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything in the express-app directory
-sudo chmod -R 777 /home/ubuntu/myangular-app/
+sudo chmod -R 777 /home/ubuntu/angular-app/
 
 #navigate into our working directory where we have all our github files
-cd /home/ubuntu/myangular-app/
+cd /home/ubuntu/angular-app/
 
 #add npm and node to path
 #export NVM_DIR="$HOME/.nvm"    
