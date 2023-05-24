@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - npm install
+  build:
+    commands:
+      - export NODE_OPTIONS=--openssl-legacy-provider
+      - npm run build
+artifacts:
+  files:
+    - '**/*'
